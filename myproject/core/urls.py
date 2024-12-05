@@ -8,6 +8,5 @@ urlpatterns = [
     path('educacional/', views.educacional, name='educacional'),
     path('denuncias/', views.denuncias, name='denuncias'),
     path('delegacias-ciberneticas/', views.delegacias, name='delegacias'),
-    # path('admin/', admin.site.urls)
 ]
 

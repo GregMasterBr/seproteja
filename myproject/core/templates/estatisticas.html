@@ -1,1 +1,17 @@
-<h1>Estatísticas</h1>
+{% extends 'base.html' %}
+{% load static%}
+
+{% block 'head' %} 
+    <meta name="description" content="Estatísticas">
+{% endblock %}
+
+{% block 'title' %}Estatísticas{% endblock %}
+
+{% block 'body' %}
+<div class="container">
+    <h1>Estatísticas do PhishOut</h1>
+    <p></p> 
+    <hr style="background-color: gray;" />    
+    https://indicadores.safernet.org.br/
+</div>    
+{% endblock %}

@@ -4,6 +4,7 @@ from django.contrib.messages import constants
 # Create your views here.
 
 def home(request):
+    print(request.resolver_match.url_name)
     messages.add_message(request, constants.SUCCESS, 'Página carregada com sucesso')
     return render(request,'index.html')
 
